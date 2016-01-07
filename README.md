@@ -22,7 +22,7 @@ my_service.cfc
 
 Create a new flex project with "FlexColdFusionWeb" project name. 
 
-Selecct "ColdFusion" under Application service type dropdown list. 
+Select "ColdFusion" under Application service type dropdown list. 
 
 Add below details for flex server settings
 
