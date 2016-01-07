@@ -27,9 +27,13 @@ Selecct "ColdFusion" under Application service type dropdown list.
 Add below details for flex server settings
 
 Colfusion Root Folder: D:\ColdFusion11\cfusion
+
 Web root: D:\ColdFusion11\cfusion\wwwroot
+
 Root URL: http://localhost:8500
+
 Output folder: D:\ColdFusion11\cfusion\wwwroot\FlexColdFusionWeb
+
 
 Flex will call "sayHello" method of "my_service" coldfuion component through flex remoting. 
 
