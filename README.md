@@ -37,6 +37,7 @@ Output folder: D:\ColdFusion11\cfusion\wwwroot\FlexColdFusionWeb
 
 Flex will call "sayHello" method of "my_service" coldfuion component through flex remoting. 
 
+## RemoteObject
 ```mxml
 <s:RemoteObject id="service"
 						source="FlexColdFusionWeb.my_service"
@@ -95,4 +96,16 @@ FlexColdFusionWeb.mxml
 </s:Application>
 ```
 
+# Integating services with desktop application
+## RemoteObject
 
+Addtional property 'endpoint' with value "http://localhost:8500/flex2gateway/" is required to access from desktop apps.
+
+```mxml
+<s:RemoteObject id="service"
+						source="FlexColdFusionWeb.my_service"
+						destination="ColdFusion"
+						result="service_resultHandler(event)"
+						fault="service_faultHandler(event)"/>
+
+```
