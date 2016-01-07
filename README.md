@@ -105,6 +105,7 @@ Addtional property 'endpoint' with value "http://localhost:8500/flex2gateway/" i
 <s:RemoteObject id="service"
 						source="FlexColdFusionWeb.my_service"
 						destination="ColdFusion"
+						endpoint="http://localhost:8500/flex2gateway/"
 						result="service_resultHandler(event)"
 						fault="service_faultHandler(event)"/>
 
